@@ -1,4 +1,4 @@
-本工是一个 Function call测试工程，可以对接多种模型，采用的是非流式的输出。可以用来测试大模型的 Function call功能是否正常。主要代码 function_call_agent.py 是入口代码。config_list 是模型配置。
+本工是一个LLM大语言模型适配的 Function call测试工程，可以对接多种模型，采用的是非流式的输出。可以用来测试大模型的 Function call功能是否正常。主要代码 function_call_agent.py 是入口代码。config_list 是模型配置。
 
 1： generate_llm_reply 是调用大模型适配文件目录下的方法与大模型进行交互。 大模型适配文件  function_call\models 在这个目录下。生成的响应如果是tool call会转换成标准的 openAI响应格式。
 
