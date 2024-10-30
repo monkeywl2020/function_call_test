@@ -1,0 +1,5 @@
+{
+    "log_level": "DEBUG",
+    "check_interval": 10,
+    "log_dir": "logs"
+}
